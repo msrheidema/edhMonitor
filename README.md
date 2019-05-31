@@ -8,7 +8,10 @@ Which is a free platform that lets you interact with IOT
 Required materials:
 - 1 node mcu
 - 3 120v relays
-Cabling to do the installation
+Cabling to do the installation.
+
+Setup diagram:
+![Diagram](/docs/diagram.png?raw=true){:width="100px"}
 
 # Double throw setup
 The double throw is setup like this:
@@ -17,3 +20,6 @@ The double throw is setup like this:
 - A cable that goes straight from the main out to a power outlet
 
 ![doubleThrow](/docs/doubleThrowSwitch.jpeg?raw=true "doubleThrow")
+
+# Blynk clone code
+![Blynk clone](/docs/blynk_clone.JPG?raw=true){:width="100px"}
