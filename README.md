@@ -8,7 +8,7 @@ Which is a free platform that lets you interact with IOT
 Required materials:
 - 1 node mcu
 - 3 120v relays
-Cabling to do the installation.
+- Cabling to do the installation.
 
 Setup diagram:  
 ![Diagram](/docs/diagram.png?raw=true)
