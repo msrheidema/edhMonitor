@@ -6,8 +6,8 @@ A simple app I’m using at my house to monitor the status of the edh (main powe
 The app is built on top of blynk: https://blynk.io/
 Which is a free platform that lets you interact with IOT
 Required materials:
-1 node mcu
-3 120v relays
+- 1 node mcu
+- 3 120v relays
 Cabling to do the installation
 
 # Double throw setup
