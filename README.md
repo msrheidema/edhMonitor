@@ -1,6 +1,6 @@
 # edhMonitor
 A simple app I’m using at my house to monitor the status of the edh (main power in Haiti) and the status of my generator.
-![App example](/docs/app_example.PNG?raw=true){:height="50%" width="50%"}
+![App example](/docs/app_example.PNG?raw=true){:width="100px"}
 
 # Setup
 The app is built on top of blynk: https://blynk.io/
