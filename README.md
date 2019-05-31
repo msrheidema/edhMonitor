@@ -12,7 +12,8 @@ Cabling to do the installation
 
 # Double throw setup
 The double throw is setup like this:
-A cable that goes straight from the edh in to a power outlet
-A cable that goes straight from the generator in to a power outlet
-A cable that goes straight from the main out to a power outlet
+- A cable that goes straight from the edh in to a power outlet
+- A cable that goes straight from the generator in to a power outlet
+- A cable that goes straight from the main out to a power outlet
+
 ![doubleThrow](/docs/doubleThrowSwitch.jpeg?raw=true "doubleThrow")
