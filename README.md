@@ -1,6 +1,6 @@
 # edhMonitor
 A simple app I’m using at my house to monitor the status of the edh (main power in Haiti) and the status of my generator.
-![App example](/docs/app_example.PNG?raw=true){:width="100px"}
+![App example](/docs/app_example.PNG?raw=true)
 
 # Setup
 The app is built on top of blynk: https://blynk.io/
@@ -11,7 +11,7 @@ Required materials:
 Cabling to do the installation.
 
 Setup diagram:
-![Diagram](/docs/diagram.png?raw=true){:width="100px"}
+![Diagram](/docs/diagram.png?raw=true)
 
 # Double throw setup
 The double throw is setup like this:
@@ -22,4 +22,4 @@ The double throw is setup like this:
 ![doubleThrow](/docs/doubleThrowSwitch.jpeg?raw=true "doubleThrow")
 
 # Blynk clone code
-![Blynk clone](/docs/blynk_clone.JPG?raw=true){:width="100px"}
+![Blynk clone](/docs/blynk_clone.JPG?raw=true)
