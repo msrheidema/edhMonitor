@@ -1,0 +1,60 @@
+esphome:
+  name: edh-sensor
+
+esp8266:
+  board: nodemcuv2
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
+  password: "randooooom"
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Edh-Sensor Fallback Hotspot"
+    password: "randoooooom"
+
+captive_portal:
+
+binary_sensor:
+  - platform: gpio
+    name: "MainPower"
+    id: input_d5
+    pin: 
+      number: D5
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_on_off: 5s
+  - platform: gpio
+    name: "EdhPower"
+    id: input_d6
+    pin: 
+      number: D6
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_on_off: 5s
+  - platform: gpio
+    name: "GenPower"
+    id: input_d7
+    pin: 
+      number: D7
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_on_off: 5s
